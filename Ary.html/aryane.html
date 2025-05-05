@@ -1,0 +1,322 @@
+let feitiço = "Lumos";
+        let nívelDeMana=87;
+        let invisível = false
+       
+        console.log(`o feitico é do tipo: ${typeof feitiço}`);
+        console.log(`o nível de mana é tipo: ${typeof nível}`);
+        console.log(`o invisível é do tipo: ${typeof invisível}`);
+   
+        //2. Dragões e Condições ''
+   
+        let Idade =20;
+        let temEspadaMagica = true ;
+   
+        if(Idade > 18 && temEspadaMagica)
+        {
+        console.log("Voce pode lugar contra o Dragão")
+
+
+        }
+         else
+         {
+            console.log("Fuga enquanto há tempo!")
+         }
+
+
+         //3. A Pizzaria do Código História
+    let temDinheiro = true;
+    let estaComFome = false;
+    let hojeEhSexta = true;
+
+
+    if ((temDinheiro && estaComFome) || hojeEhSexta)  {
+      console.log(`Vamos pedir pizza!`);
+    }
+      else
+    {
+    console.log(`Hoje não é dia de pizza.`);
+    }
+
+
+     //4. A Máquina de Suco Inteligente``
+       
+     let fruta = "laranja"; // Altere para "uva", "morango" ou outra fruta para testar
+
+
+     if (fruta === "laranja")
+     {
+     console.log("Preparando suco de laranja");  
+     }
+       else if (fruta === "uva")
+     {
+        console.log("Preparando suco de uva");
+     }
+       else if (fruta === "morango")
+     {
+          console.log("Preparando suco de morango");
+     }
+       else
+     {
+           console.log("Essa fruta não está disponível");
+     }
+ 
+     //5. Detetive dos Dados``
+
+
+     let suspeito1 = "42"; // string
+     let suspeito2 = 42;   // número
+     
+     if (suspeito1  === suspeito2)
+       {
+         console.log("Eles são exatamente iguais.");
+       }
+           else if ("suspeito1" == suspeito2)
+       {
+         console.log("Eles dizem a mesma coisa, mas de formas diferentes.");
+       }
+         else
+      {
+         console.log("Eles são diferentes.");
+       }
+   
+       //6. O Carrinho da Loja``
+     
+         let quantidadeItens - 2;
+         let valorTotal - 150;
+ 
+       if (quantidadeItens > 3 || valorTotal > 100)
+ {
+    alert("Desconto aplicado!");
+ }
+ else
+ {
+    alert("Sem desconto dessa vez.");
+ }
+
+
+  //7. O Robô do Café `
+  let pedido = prompt("Qual café você gostaria? (café, capuccino ou expresso)");
+
+
+  if (pedido === "café")
+   {
+      alert("Servindo café");
+  }
+  else if (pedido === "capuccino")
+   {
+      alert("Servindo capuccino");
+  }
+  else if (pedido === "expresso")
+   {
+      alert("Servindo expresso");
+  }
+  else
+  {
+      alert("Desculpe, não temos esse tipo de café");
+  }
+
+
+  //8. Missão: Planeta JavaScript
+
+
+let combustivel = Number ("Digite a quantidade de combustível:");
+let clima = prompt("Como está o clima? (bom/ruim)");
+
+
+if (combustivel > 50 && clima.toLowerCase() === "bom")
+   {
+  alert("Pouso autorizado!");
+}
+else
+{
+  alert("Abortar missão!");
+}
+
+
+//9. Presente Secreto
+
+
+let nomeSorteado = prompt("Quem você tirou no presente secreto?");
+
+
+if (nomeSorteado === "Carlos")
+  {
+  alert("Compre um livro");
+}
+else if (nomeSorteado === "Ana")
+  {
+  alert("Compre um chocolate");
+}
+else
+{
+  alert("Compre um presente surpresa");
+}
+
+
+
+
+//10. Jogo de Pontuaçã
+
+
+let pontos = Number(prompt("Digite a pontuação do jogador:"));
+
+
+if (pontos >= 100)
+   {
+  alert("Você venceu!");
+}
+else
+ {
+  alert("Continue jogando!");
+}
+ 
+//11. Sessão de Cinema
+
+
+let idade = Number ("Qual a sua idade?");
+
+
+if (idade <= 12 || idade > 60)
+   {
+  alert("Entrada gratuita");
+}
+ else
+ {
+  alert("Precisa pagar ingresso");
+}
+//12. Poção Misteriosa
+
+
+let ingrediente1 = prompt("Digite o primeiro ingrediente:");
+let ingrediente2 = prompt("Digite o segundo ingrediente:");
+
+
+if (ingrediente1 === "pele de sapo" && ingrediente2 === "asa de morcego")
+   {
+  alert("Poção pronta!");
+}
+else
+{
+  alert("Mistura errada!");
+}
+
+
+//13. Festa VIP
+
+
+let nome = prompt("Digite seu nome:");
+let temConvite = confirm("Você tem convite?");
+
+
+if ((nome === "Joana" || nome === "Carlos" || nome === "Marcos") && temConvite)
+  {
+  alert("Pode entrar na festa VIP!");
+}
+else
+ {
+  alert("Entrada negada.");
+}
+//14. Passeio com o Pet
+
+
+let estaChovendo = confirm("Está chovendo?");
+let temTempo = confirm("Você tem tempo para passear?");
+
+
+if (!estaChovendo && temTempo)
+  {
+  alert("Hora do passeio!");
+}
+else
+{
+  alert("Hoje não vai dar...");
+}
+//15. Sorveteria Gelada
+
+
+let sabor = prompt("Qual sabor você quer? (baunilha, chocolate, morango)");
+
+
+if (sabor === "baunilha" || sabor === "chocolate" || sabor === "morango")
+   {
+  alert("Servindo sorvete de " + sabor);
+}
+else
+{
+  alert("Sabor indisponível");
+}
+//16. MasterChef Lógico
+
+
+let temIngredientePrincipal = confirm("Tem o ingrediente principal?");
+let temTemperoSecreto = confirm("Tem o tempero secreto?");
+
+
+if (temIngredientePrincipal || temTemperoSecreto)
+   {
+  alert("Prato especial pronto!");
+}
+else
+ {
+  alert("Sem os ingredientes necessários.");
+}
+//17. Laboratório de Comparações
+
+
+let valor1 = "100";
+let valor2 = 100;
+
+
+console.log("Comparando com == :", valor1 == valor2);   // true
+console.log("Comparando com === :", valor1 === valor2); // false
+console.log("== compara apenas o valor, === compara valor e tipo.");
+
+
+
+
+//18. Esqui na Montanha
+let idade = Number("Qual a sua idade?");
+let temEquipamento = confirm("Você tem o equipamento completo?");
+
+
+if (idade > 16 && temEquipamento)
+   {
+  alert("Pode esquiar");
+}
+else
+{
+  alert("Não liberado.");
+}
+//19. Lista de Material Escolar
+
+
+let tipoEnsino = ("Digite o tipo de ensino (fundamental, médio):");
+
+
+if (tipoEnsino === "fundamental")
+   {
+  alert("Levar lápis");
+}
+ else if (tipoEnsino === "médio")
+   {
+  alert("Levar caneta");
+}
+else
+ {
+  alert("Levar lápis e caneta");
+}
+//20. Contato Alienígena
+
+
+let sinal1 = confirm("Sinal 1 está ativo?");
+let sinal2 = confirm("Sinal 2 está ativo?");
+
+
+if (sinal1 && sinal2)
+   {
+  alert("Sinal de paz enviado");
+}
+else
+{
+  alert("Sem contato estabelecido.");
+}
